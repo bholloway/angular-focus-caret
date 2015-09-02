@@ -1,6 +1,6 @@
 {
   "name": "angular-focus-caret",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular 1.x directive to set a caret position whenever an element receives focus",
   "main": "./focusCaret.js",
   "repository": {
