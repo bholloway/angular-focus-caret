@@ -48,7 +48,7 @@ Set caret to the end of content whenever the `<input>` receives focus.
 <input focus-caret/>
 ```
 
-Set the caret to index `2` whenever the `<input?` is receives focus.
+Set the caret to index `2` whenever the `<input>` receives focus.
 
 ```html
 <input focus-caret="2"/>
