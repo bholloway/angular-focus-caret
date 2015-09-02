@@ -1,0 +1,30 @@
+{
+  "name": "angular-focus-caret",
+  "version": "1.0.0",
+  "description": "Angular 1.x directive to set a caret position whenever an element receives focus",
+  "main": "./focusCaret.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholloway/angular-focus-caret.git"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "IE",
+    "fix",
+    "focus",
+    "caret"
+  ],
+  "author": "bholloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bholloway/angular-focus-caret/issues"
+  },
+  "homepage": "https://github.com/bholloway/angular-focus-caret#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
