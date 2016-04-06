@@ -8,7 +8,7 @@
     });
   }
   // export CommonJS
-  else if ((typeof module === 'object') && module.exports) {
+  else if ((typeof exports === 'object') && module.exports) {
     module.exports = createModule();
   }
   // browser
@@ -35,9 +35,10 @@
    *
    * The position is determined by the value of the attribute. Use `NaN` or empty value to set caret to the end of the
    * content. Otherwise specify an integer offset.
-   * @ngInject
    */
   function focusCaretDirective($timeout) {
+    'ngInject';
+
     return {
       restrict: 'A',
       scope   : {
